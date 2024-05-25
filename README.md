@@ -43,7 +43,7 @@ with open('model.pkl','wb') as file:
 3. **Example Code**:
    ```python
    # Load your trained model (replace with actual model loading code)
-   model = load_model("trained_model.h5")
+   model = load_model("trained_model.pkl")
 
    def predict_url_safety(input_url):
        # Preprocess input_url (similar to training data)
@@ -65,4 +65,4 @@ with open('model.pkl','wb') as file:
 ## Conclusion
 By following these steps, you can effectively predict whether a user-provided URL is safe or unsafe. Remember to keep your model updated and monitor its performance regularly.
 
-**Note**: Replace placeholders (e.g., `"trained_model.h5"`, `preprocess_url()`) with actual code and filenames specific to your implementation.
+**Note**: Replace placeholders (e.g., `"trained_model.pkl"`, `preprocess_url()`) with actual code and filenames specific to your implementation.
