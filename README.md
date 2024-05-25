@@ -22,7 +22,7 @@ Develop a robust machine learning model that accurately classifies user-provided
 - Set a threshold to classify the URL as safe or unsafe based on predicted probabilities.
 
 ### 5. Save your model in pickle formate.
-```pyhton
+```python
 #you must have to import pickle
 import pickle
 with open('model.pkl','wb') as file:
