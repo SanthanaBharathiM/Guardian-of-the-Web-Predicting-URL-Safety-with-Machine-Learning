@@ -21,10 +21,15 @@ Develop a robust machine learning model that accurately classifies user-provided
 - Pass the processed input through your trained model.
 - Set a threshold to classify the URL as safe or unsafe based on predicted probabilities.
 
-### 5. Creating the RM File
-- Document the entire process in this README.
-- Include details about data preprocessing, feature extraction, model architecture, and evaluation.
-- Explain how users can utilize your trained model for predicting URL safety.
+### 5. Save your model in pickle formate.
+```pyhton
+#you must have to import pickle
+import pickle
+with open('model.pkl','wb') as file:
+   pickle.dump(model_name,file)
+#it will stored in current directory 
+```
+
 
 ## Usage
 1. **Preprocessing and Feature Extraction**:
@@ -60,9 +65,4 @@ Develop a robust machine learning model that accurately classifies user-provided
 ## Conclusion
 By following these steps, you can effectively predict whether a user-provided URL is safe or unsafe. Remember to keep your model updated and monitor its performance regularly.
 
----
-
-Feel free to add more details, code snippets, and any other relevant information to this README. Good luck with your project! 🚀  
-
----
 **Note**: Replace placeholders (e.g., `"trained_model.h5"`, `preprocess_url()`) with actual code and filenames specific to your implementation.
